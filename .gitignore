@@ -1,0 +1,7 @@
+# build output
+/build/
+/out/
+/target/
+*.class
+*.jar
+*.zip
