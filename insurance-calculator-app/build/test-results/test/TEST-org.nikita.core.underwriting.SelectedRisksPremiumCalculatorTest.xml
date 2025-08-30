@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.underwriting.SelectedRisksPremiumCalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:15" hostname="DESKTOP-CB9JCRQ" time="0.168">
+  <properties/>
+  <testcase name="[1] risk=TEST_RISK, personBirthDate=1994-01-01, countriesToVisit=[USA], insuranceLimit=15000, basePremium=100, ageCoefficientValue=1.3, countryCoefficientValue=1.5, insuranceLimitCoefficientValue=1.5, expectedPremium=100.0" classname="org.nikita.core.underwriting.SelectedRisksPremiumCalculatorTest" time="0.161"/>
+  <testcase name="[2] risk=ANOTHER_RISK, personBirthDate=1984-01-01, countriesToVisit=[Spain], insuranceLimit=20000, basePremium=200, ageCoefficientValue=1.5, countryCoefficientValue=1.2, insuranceLimitCoefficientValue=2.0, expectedPremium=200.0" classname="org.nikita.core.underwriting.SelectedRisksPremiumCalculatorTest" time="0.004"/>
+  <system-out><![CDATA[2025-08-21T12:42:15.700+03:00  INFO 1236 --- [    Test worker] o.n.c.u.SelectedRisksPremiumCalculator   : Calculated premiums for selected risks: [RiskDto(riskIc=TEST_RISK, premium=100)]
+2025-08-21T12:42:15.709+03:00  INFO 1236 --- [    Test worker] o.n.c.u.SelectedRisksPremiumCalculator   : Calculated premiums for selected risks: [RiskDto(riskIc=ANOTHER_RISK, premium=200)]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

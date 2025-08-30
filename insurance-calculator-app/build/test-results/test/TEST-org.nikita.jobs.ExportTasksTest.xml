@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.jobs.ExportTasksTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:18" hostname="DESKTOP-CB9JCRQ" time="0.007">
+  <properties/>
+  <testcase name="submitExportTasks_shouldHandleExceptionInTask()" classname="org.nikita.jobs.ExportTasksTest" time="0.005"/>
+  <testcase name="submitExportTasks_shouldSubmitAllTasks()" classname="org.nikita.jobs.ExportTasksTest" time="0.002"/>
+  <system-out><![CDATA[2025-08-21T12:42:18.352+03:00 ERROR 1236 --- [pool-9-thread-1] org.nikita.jobs.ExportTasks              : Error exporting agreement 843f3e31-524a-4aa4-a49d-55fbd8727070: Test exception
+
+java.lang.RuntimeException: Test exception
+	at org.nikita.core.service.TravelExportAgreementToXmlCoreService.export(TravelExportAgreementToXmlCoreService.java:66) ~[main/:na]
+	at org.nikita.api.command.xml.TravelExportAgreementToXmlCoreCommand.execute(TravelExportAgreementToXmlCoreCommand.java:16) ~[main/:na]
+	at org.nikita.jobs.ExportTasks.lambda$submitExportTasks$0(ExportTasks.java:30) ~[main/:na]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-08-21T12:42:18.355+03:00  INFO 1236 --- [ool-10-thread-1] org.nikita.jobs.ExportTasks              : Agreement d0fd4d97-6a9c-44c7-a9db-73e0453769c6 exported successfully
+2025-08-21T12:42:18.355+03:00  INFO 1236 --- [ool-10-thread-2] org.nikita.jobs.ExportTasks              : Agreement d5698b04-331a-4c33-b3dc-5db65fb28392 exported successfully
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

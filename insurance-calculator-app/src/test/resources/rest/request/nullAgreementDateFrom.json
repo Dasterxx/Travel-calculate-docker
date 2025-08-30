@@ -1,0 +1,53 @@
+{
+  "agreement": {
+    "agreementDateFrom": null,
+    "agreementDateTo": "2028-03-31T23:59:59",
+    "countriesToVisit": [
+      "USA",
+      "Spain"
+    ],
+    "insuranceLimit": 10000,
+    "selectedRisks": [
+      "TRAVEL_MEDICAL"
+    ],
+    "uuid": "2f998026-55f7-4686-8501-c2cbb87314b1",
+    "persons": [
+      {
+        "personCode": "A-12345",
+        "personFirstName": "Vasja",
+        "personLastName": "Pupkin",
+        "birthDate": "1950-03-15",
+        "email": "vasja@example.com",
+        "gender": "Male",
+        "password": "StrongPass123",
+        "blackListed": false,
+        "roles": [ "ROLE_USER" ],
+        "verificationTokens": []
+      },
+      {
+        "personCode": "B-54321",
+        "personFirstName": "Petja",
+        "personLastName": "Pupkin",
+        "birthDate": "2010-02-23",
+        "email": "petja@example.com",
+        "gender": "Male",
+        "password": "AnotherPass456",
+        "blackListed": false,
+        "roles": [ "ROLE_USER" ],
+        "verificationTokens": []
+      },
+      {
+        "personCode": "C-67890",
+        "personFirstName": "Sergej",
+        "personLastName": "Pupkin",
+        "birthDate": "1975-01-01",
+        "email": "sergej@example.com",
+        "gender": "Male",
+        "password": "Pass789Strong",
+        "blackListed": false,
+        "roles": ["ROLE_ADMIN"],
+        "verificationTokens": []
+      }
+    ]
+  }
+}

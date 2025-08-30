@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.underwriting.calcs.service.TravelPremiumCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:17" hostname="DESKTOP-CB9JCRQ" time="0.031">
+  <properties/>
+  <testcase name="shouldCalculateTotalPremiumCorrectly()" classname="org.nikita.core.underwriting.calcs.service.TravelPremiumCalculatorTest" time="0.031"/>
+  <system-out><![CDATA[2025-08-21T12:42:17.751+03:00  INFO 1236 --- [    Test worker] o.n.c.u.c.s.TravelPremiumCalculator      : Total premium calculated: 250
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

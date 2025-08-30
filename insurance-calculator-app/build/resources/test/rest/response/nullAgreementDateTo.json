@@ -1,0 +1,12 @@
+{
+  "errors": [
+    {
+      "errorCode": "agreementDateTo",
+      "description": "Field agreementDateTo must not be empty!"
+    },
+    {
+      "errorCode": "agreementDateFrom",
+      "description": "Both dates must be provided"
+    }
+  ]
+}

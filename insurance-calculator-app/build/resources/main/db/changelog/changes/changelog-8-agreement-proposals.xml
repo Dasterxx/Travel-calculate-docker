@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd">
+
+    <changeSet id="8" author="nikita">
+        <preConditions onFail="MARK_RAN">
+            <not><tableExists tableName="agreement_proposals"/></not>
+        </preConditions>
+        <createTable tableName="agreement_proposals">
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="agreement_uuid" type="UUID"/>
+            <column name="person_first_name" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="person_last_name" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="date_from" type="TIMESTAMP">
+                <constraints nullable="false"/>
+            </column>
+            <column name="date_to" type="TIMESTAMP">
+                <constraints nullable="false"/>
+            </column>
+            <column name="already_generated" type="BOOLEAN">
+                <constraints nullable="false"/>
+            </column>
+            <column name="proposal_file_path" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+    </changeSet>
+
+</databaseChangeLog>

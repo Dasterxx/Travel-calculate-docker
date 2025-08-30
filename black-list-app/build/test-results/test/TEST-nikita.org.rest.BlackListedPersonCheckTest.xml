@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nikita.org.rest.BlackListedPersonCheckTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:41:47" hostname="DESKTOP-CB9JCRQ" time="0.251">
+  <properties/>
+  <testcase name="ERROR_CODE_2 personLastName is EMPTY" classname="nikita.org.rest.BlackListedPersonCheckTest" time="0.124"/>
+  <testcase name="Person not blacklisted" classname="nikita.org.rest.BlackListedPersonCheckTest" time="0.065"/>
+  <testcase name="ERROR_CODE_3 personCode is EMPTY" classname="nikita.org.rest.BlackListedPersonCheckTest" time="0.008"/>
+  <testcase name="ERROR_CODE_1 personFirstName is NULL" classname="nikita.org.rest.BlackListedPersonCheckTest" time="0.011"/>
+  <testcase name="ERROR_CODE_2 personLastName is NULL" classname="nikita.org.rest.BlackListedPersonCheckTest" time="0.007"/>
+  <testcase name="ERROR_CODE_3 personCode is NULL" classname="nikita.org.rest.BlackListedPersonCheckTest" time="0.007"/>
+  <testcase name="Person blacklisted" classname="nikita.org.rest.BlackListedPersonCheckTest" time="0.017"/>
+  <testcase name="ERROR_CODE_1 personFirstName is EMPTY" classname="nikita.org.rest.BlackListedPersonCheckTest" time="0.004"/>
+  <system-out><![CDATA[12:41:43.538 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [nikita.org.rest.BlackListedPersonCheckTest]: BlackListedPersonCheckTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:41:43.687 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration nikita.org.BlackListApplication for test class nikita.org.rest.BlackListedPersonCheckTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2025-08-21T12:41:44.030+03:00  INFO 22872 --- [    Test worker] n.org.rest.BlackListedPersonCheckTest    : Starting BlackListedPersonCheckTest using Java 21.0.5 with PID 22872 (started by User in C:\Users\User\IdeaProjects\Travel-Insurance-Calculator\backend\application_V2\black-list-app)
+2025-08-21T12:41:44.031+03:00  INFO 22872 --- [    Test worker] n.org.rest.BlackListedPersonCheckTest    : The following 1 profile is active: "test"
+2025-08-21T12:41:44.685+03:00  INFO 22872 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-21T12:41:44.733+03:00  INFO 22872 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2025-08-21T12:41:45.104+03:00  INFO 22872 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-21T12:41:45.273+03:00  INFO 22872 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-08-21T12:41:45.274+03:00  INFO 22872 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-21T12:41:45.403+03:00  INFO 22872 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-21T12:41:45.464+03:00  INFO 22872 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2025-08-21T12:41:45.493+03:00  INFO 22872 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-21T12:41:45.587+03:00  INFO 22872 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-21T12:41:45.625+03:00  WARN 22872 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-21T12:41:46.090+03:00  INFO 22872 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-21T12:41:46.120+03:00  INFO 22872 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-21T12:41:46.327+03:00  INFO 22872 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-21T12:41:46.998+03:00  WARN 22872 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-21T12:41:47.527+03:00  INFO 22872 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-08-21T12:41:47.527+03:00  INFO 22872 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-08-21T12:41:47.529+03:00  INFO 22872 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-08-21T12:41:47.557+03:00  INFO 22872 --- [    Test worker] n.org.rest.BlackListedPersonCheckTest    : Started BlackListedPersonCheckTest in 3.741 seconds (process running for 6.149)
+2025-08-21T12:41:47.645+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckRequest@51d2218e
+2025-08-21T12:41:47.646+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Response blackListedPersonCheckResponse nikita.org.dto.BlackListedPersonCheckResponse@5a59f3d9
+2025-08-21T12:41:47.646+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request processed in 0 ms
+2025-08-21T12:41:47.646+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckResponse@5a59f3d9,
+2025-08-21T12:41:47.697+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckRequest@cc655a
+Hibernate: select blpe1_0.id,blpe1_0.person_first_name,blpe1_0.person_last_name,blpe1_0.person_code from black_listed_persons blpe1_0 where blpe1_0.person_first_name=? and blpe1_0.person_last_name=?
+2025-08-21T12:41:47.756+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Response blackListedPersonCheckResponse nikita.org.dto.BlackListedPersonCheckResponse@57064d38
+2025-08-21T12:41:47.756+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request processed in 58 ms
+2025-08-21T12:41:47.756+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckResponse@57064d38,
+2025-08-21T12:41:47.764+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckRequest@3e492199
+2025-08-21T12:41:47.764+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Response blackListedPersonCheckResponse nikita.org.dto.BlackListedPersonCheckResponse@5bc3c4e5
+2025-08-21T12:41:47.765+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request processed in 0 ms
+2025-08-21T12:41:47.765+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckResponse@5bc3c4e5,
+2025-08-21T12:41:47.774+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckRequest@402ecbc7
+2025-08-21T12:41:47.774+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Response blackListedPersonCheckResponse nikita.org.dto.BlackListedPersonCheckResponse@6f53e863
+2025-08-21T12:41:47.774+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request processed in 0 ms
+2025-08-21T12:41:47.774+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckResponse@6f53e863,
+2025-08-21T12:41:47.785+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckRequest@186149f9
+2025-08-21T12:41:47.786+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Response blackListedPersonCheckResponse nikita.org.dto.BlackListedPersonCheckResponse@5d4042fc
+2025-08-21T12:41:47.786+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request processed in 0 ms
+2025-08-21T12:41:47.786+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckResponse@5d4042fc,
+2025-08-21T12:41:47.795+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckRequest@6b06da60
+2025-08-21T12:41:47.795+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Response blackListedPersonCheckResponse nikita.org.dto.BlackListedPersonCheckResponse@1be62793
+2025-08-21T12:41:47.795+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request processed in 0 ms
+2025-08-21T12:41:47.796+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckResponse@1be62793,
+2025-08-21T12:41:47.801+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckRequest@9da8b97
+Hibernate: select blpe1_0.id,blpe1_0.person_first_name,blpe1_0.person_last_name,blpe1_0.person_code from black_listed_persons blpe1_0 where blpe1_0.person_first_name=? and blpe1_0.person_last_name=?
+2025-08-21T12:41:47.813+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Response blackListedPersonCheckResponse nikita.org.dto.BlackListedPersonCheckResponse@689afbb0
+2025-08-21T12:41:47.813+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request processed in 11 ms
+2025-08-21T12:41:47.814+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckResponse@689afbb0,
+2025-08-21T12:41:47.819+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckRequest@60f10f6a
+2025-08-21T12:41:47.819+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Response blackListedPersonCheckResponse nikita.org.dto.BlackListedPersonCheckResponse@6c3600b7
+2025-08-21T12:41:47.819+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request processed in 0 ms
+2025-08-21T12:41:47.819+03:00  INFO 22872 --- [    Test worker] o.r.BlackListedPersonCheckRestController : Request blackListedPersonCheckRequest nikita.org.dto.BlackListedPersonCheckResponse@6c3600b7,
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

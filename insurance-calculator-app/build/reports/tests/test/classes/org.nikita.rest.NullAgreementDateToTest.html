@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - NullAgreementDateToTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>NullAgreementDateToTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.nikita.rest.html">org.nikita.rest</a> &gt; NullAgreementDateToTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.021s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">compareJsonResponseNullAgreementDateTo()</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2025-08-21T12:42:24.343+03:00  INFO 1236 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.nikita.rest.NullAgreementDateToTest]: NullAgreementDateToTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-21T12:42:24.344+03:00  INFO 1236 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.nikita.InsuranceApplication for test class org.nikita.rest.NullAgreementDateToTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2025-08-21T12:42:24.358+03:00  INFO 1236 --- [    Test worker] o.nikita.rest.NullAgreementDateToTest    : Starting NullAgreementDateToTest using Java 21.0.5 with PID 1236 (started by User in C:\Users\User\IdeaProjects\Travel-Insurance-Calculator\backend\application_V2\insurance-calculator-app)
+2025-08-21T12:42:24.359+03:00  INFO 1236 --- [    Test worker] o.nikita.rest.NullAgreementDateToTest    : The following 1 profile is active: &quot;test&quot;
+2025-08-21T12:42:24.471+03:00  INFO 1236 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-21T12:42:24.477+03:00  INFO 1236 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 10 JPA repository interfaces.
+2025-08-21T12:42:24.537+03:00  INFO 1236 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2025-08-21T12:42:24.539+03:00  INFO 1236 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection conn90: url=jdbc:h2:mem:testdb user=SA
+2025-08-21T12:42:24.539+03:00  INFO 1236 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2025-08-21T12:42:24.548+03:00  INFO 1236 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-21T12:42:24.550+03:00  INFO 1236 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-21T12:42:24.554+03:00  INFO 1236 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-21T12:42:24.640+03:00  INFO 1236 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    drop table if exists agreement cascade 
+Hibernate: 
+    drop table if exists agreement_countries cascade 
+Hibernate: 
+    drop table if exists agreement_proposals cascade 
+Hibernate: 
+    drop table if exists agreement_risks cascade 
+Hibernate: 
+    drop table if exists agreements_xml_export cascade 
+Hibernate: 
+    drop table if exists country cascade 
+Hibernate: 
+    drop table if exists country_default_day_rate cascade 
+Hibernate: 
+    drop table if exists password_reset_token cascade 
+Hibernate: 
+    drop table if exists persons cascade 
+Hibernate: 
+    drop table if exists refresh_token cascade 
+Hibernate: 
+    drop table if exists role cascade 
+Hibernate: 
+    drop table if exists user_roles cascade 
+Hibernate: 
+    drop table if exists verification_token cascade 
+Hibernate: 
+    create table agreement (
+        agreement_premium numeric(38,2),
+        insurance_limit numeric(38,2),
+        agreement_date_from timestamp(6),
+        agreement_date_to timestamp(6),
+        id bigint generated by default as identity,
+        uuid uuid not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table agreement_countries (
+        agreement_id bigint not null,
+        country_id bigint not null
+    )
+Hibernate: 
+    create table agreement_proposals (
+        already_generated char(1) not null check (already_generated in ('N','Y')),
+        date_from timestamp(6) not null,
+        date_to timestamp(6) not null,
+        id bigint generated by default as identity,
+        agreement_uuid uuid,
+        person_first_name varchar(255) not null,
+        person_last_name varchar(255) not null,
+        proposal_file_path varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table agreement_risks (
+        agreement_id bigint not null,
+        risk varchar(255)
+    )
+Hibernate: 
+    create table agreements_xml_export (
+        already_exported boolean not null,
+        id bigint generated by default as identity,
+        agreement_uuid varchar(36) not null unique,
+        primary key (id)
+    )
+Hibernate: 
+    create table country (
+        id bigint generated by default as identity,
+        country_code varchar(255) not null unique,
+        country_name varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table country_default_day_rate (
+        default_day_rate numeric(38,2) not null,
+        id integer generated by default as identity,
+        country_name varchar(255) not null unique,
+        primary key (id)
+    )
+Hibernate: 
+    create table password_reset_token (
+        expiration_date timestamp(6),
+        id bigint generated by default as identity,
+        user_id bigint,
+        token varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    create table persons (
+        birth_date date not null,
+        black_listed boolean not null,
+        is_enabled boolean not null,
+        agreement_id bigint,
+        id bigint generated by default as identity,
+        email varchar(255),
+        first_name varchar(255) not null,
+        gender varchar(255),
+        last_name varchar(255) not null,
+        password varchar(255),
+        person_code varchar(255) not null,
+        primary key (id),
+        unique (first_name, last_name, person_code)
+    )
+Hibernate: 
+    create table refresh_token (
+        expiry_date timestamp(6),
+        id bigint generated by default as identity,
+        user_id bigint unique,
+        token varchar(255) unique,
+        primary key (id)
+    )
+Hibernate: 
+    create table role (
+        id bigint generated by default as identity,
+        name varchar(255),
+        primary key (id),
+        unique (name)
+    )
+Hibernate: 
+    create table user_roles (
+        role_id bigint not null,
+        user_id bigint not null
+    )
+Hibernate: 
+    create table verification_token (
+        expiration_date timestamp(6),
+        id bigint generated by default as identity,
+        user_id bigint,
+        token varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    alter table if exists agreement_countries 
+       add constraint FKb3vlrcfevfu0yev7apmp9mdof 
+       foreign key (country_id) 
+       references country
+Hibernate: 
+    alter table if exists agreement_countries 
+       add constraint FKnmqj2otf0xnviy7gnt5k2ueb1 
+       foreign key (agreement_id) 
+       references agreement
+Hibernate: 
+    alter table if exists agreement_risks 
+       add constraint FK8uooqi970alchskpgl7oxmlsf 
+       foreign key (agreement_id) 
+       references agreement
+Hibernate: 
+    alter table if exists password_reset_token 
+       add constraint FKo04psjdr9t9w9kh9qm5f1pkh5 
+       foreign key (user_id) 
+       references persons
+Hibernate: 
+    alter table if exists persons 
+       add constraint FKci0joxe418gq8f9j4qh8adgkt 
+       foreign key (agreement_id) 
+       references agreement
+Hibernate: 
+    alter table if exists refresh_token 
+       add constraint FKdl44lsavd7ahmdorqptjybuem 
+       foreign key (user_id) 
+       references persons
+Hibernate: 
+    alter table if exists user_roles 
+       add constraint FKrhfovtciq1l558cw6udg0h0d3 
+       foreign key (role_id) 
+       references role
+Hibernate: 
+    alter table if exists user_roles 
+       add constraint FKhqwikqsvr67y0u1mddk8lpkae 
+       foreign key (user_id) 
+       references persons
+Hibernate: 
+    alter table if exists verification_token 
+       add constraint FKl36ub1ot7o0h52yuvmw7tl3bm 
+       foreign key (user_id) 
+       references persons
+2025-08-21T12:42:24.650+03:00  INFO 1236 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-21T12:42:24.802+03:00  WARN 1236 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-21T12:42:24.838+03:00  INFO 1236 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2fa15a1f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34f8702a, org.springframework.security.web.context.SecurityContextHolderFilter@6f59557c, org.springframework.security.web.header.HeaderWriterFilter@efeea2c, org.springframework.web.filter.CorsFilter@2ef8a8e5, org.springframework.security.web.authentication.logout.LogoutFilter@632f0dac, org.nikita.core.security.jwt.AuthTokenFilter@75a450d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@548f4683, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2dd969b4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@405833a4, org.springframework.security.web.session.SessionManagementFilter@2ca8ec41, org.springframework.security.web.access.ExceptionTranslationFilter@2db2cbe7, org.springframework.security.web.access.intercept.AuthorizationFilter@2b48b0de]
+2025-08-21T12:42:24.900+03:00  INFO 1236 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-08-21T12:42:24.912+03:00  INFO 1236 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-08-21T12:42:24.912+03:00  INFO 1236 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-08-21T12:42:24.913+03:00  INFO 1236 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-08-21T12:42:24.917+03:00  INFO 1236 --- [   scheduling-1] o.nikita.jobs.AgreementXmlExporterJob    : Starting AgreementXmlExporterJob with thread pool size 4
+2025-08-21T12:42:24.917+03:00  INFO 1236 --- [    Test worker] o.nikita.rest.NullAgreementDateToTest    : Started NullAgreementDateToTest in 0.571 seconds (process running for 20.647)
+Hibernate: 
+    select
+        ae1_0.uuid 
+    from
+        agreement ae1_0
+2025-08-21T12:42:24.918+03:00  INFO 1236 --- [   scheduling-1] o.nikita.jobs.AgreementXmlExporterJob    : No agreements found to export.
+Hibernate: 
+    select
+        count(*) 
+    from
+        role r1_0
+Hibernate: 
+    insert 
+    into
+        role
+        (name, id) 
+    values
+        (?, default)
+Hibernate: 
+    insert 
+    into
+        role
+        (name, id) 
+    values
+        (?, default)
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.name 
+    from
+        role r1_0 
+    where
+        r1_0.name=?
+Hibernate: 
+    select
+        count(*) 
+    from
+        persons pe1_0
+Hibernate: 
+    insert 
+    into
+        persons
+        (agreement_id, birth_date, black_listed, email, first_name, gender, is_enabled, last_name, password, person_code, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+Hibernate: 
+    insert 
+    into
+        persons
+        (agreement_id, birth_date, black_listed, email, first_name, gender, is_enabled, last_name, password, person_code, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+Hibernate: 
+    insert 
+    into
+        persons
+        (agreement_id, birth_date, black_listed, email, first_name, gender, is_enabled, last_name, password, person_code, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        count(*) 
+    from
+        country ce1_0
+Hibernate: 
+    insert 
+    into
+        country
+        (country_code, country_name, id) 
+    values
+        (?, ?, default)
+Hibernate: 
+    insert 
+    into
+        country
+        (country_code, country_name, id) 
+    values
+        (?, ?, default)
+Hibernate: 
+    insert 
+    into
+        country
+        (country_code, country_name, id) 
+    values
+        (?, ?, default)
+Hibernate: 
+    insert 
+    into
+        country
+        (country_code, country_name, id) 
+    values
+        (?, ?, default)
+Hibernate: 
+    insert 
+    into
+        user_roles
+        (user_id, role_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        user_roles
+        (user_id, role_id) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        user_roles
+        (user_id, role_id) 
+    values
+        (?, ?)
+2025-08-21T12:42:25.120+03:00  INFO 1236 --- [    Test worker] .r.v.TravelCalculatePremiumRequestLogger : REQUEST: {&quot;agreement&quot;:{&quot;agreementDateFrom&quot;:&quot;2028-03-15T00:00:00&quot;,&quot;agreementDateTo&quot;:null,&quot;countriesToVisit&quot;:[&quot;USA&quot;,&quot;Spain&quot;],&quot;insuranceLimit&quot;:10000,&quot;agreementPremium&quot;:null,&quot;selectedRisks&quot;:[&quot;TRAVEL_MEDICAL&quot;],&quot;uuid&quot;:&quot;2f998026-55f7-4686-8501-c2cbb87314b1&quot;,&quot;persons&quot;:[{&quot;personCode&quot;:&quot;A-12345&quot;,&quot;firstName&quot;:null,&quot;lastName&quot;:null,&quot;birthDate&quot;:&quot;1950-03-15&quot;,&quot;risks&quot;:[],&quot;personPremium&quot;:null,&quot;blackListed&quot;:false,&quot;password&quot;:&quot;StrongPass123&quot;,&quot;email&quot;:&quot;vasja@example.com&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;roles&quot;:[&quot;ROLE_USER&quot;],&quot;verificationTokens&quot;:[],&quot;isEnabled&quot;:false},{&quot;personCode&quot;:&quot;B-54321&quot;,&quot;firstName&quot;:null,&quot;lastName&quot;:null,&quot;birthDate&quot;:&quot;2010-02-23&quot;,&quot;risks&quot;:[],&quot;personPremium&quot;:null,&quot;blackListed&quot;:false,&quot;password&quot;:&quot;AnotherPass456&quot;,&quot;email&quot;:&quot;petja@example.com&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;roles&quot;:[&quot;ROLE_USER&quot;],&quot;verificationTokens&quot;:[],&quot;isEnabled&quot;:false},{&quot;personCode&quot;:&quot;C-67890&quot;,&quot;firstName&quot;:null,&quot;lastName&quot;:null,&quot;birthDate&quot;:&quot;1975-01-01&quot;,&quot;risks&quot;:[],&quot;personPremium&quot;:null,&quot;blackListed&quot;:false,&quot;password&quot;:&quot;Pass789Strong&quot;,&quot;email&quot;:&quot;sergej@example.com&quot;,&quot;gender&quot;:&quot;Male&quot;,&quot;roles&quot;:[&quot;ROLE_ADMIN&quot;],&quot;verificationTokens&quot;:[],&quot;isEnabled&quot;:false}]}}
+2025-08-21T12:42:25.120+03:00  INFO 1236 --- [    Test worker] .r.v.TravelCalculatePremiumRequestLogger : REQUEST LOGGING TIME: 2 ms
+2025-08-21T12:42:25.120+03:00  INFO 1236 --- [    Test worker] .n.c.s.TravelCalculatePremiumServiceImpl : Calculating premium for agreement: AgreementDto(agreementDateFrom=2028-03-15T00:00, agreementDateTo=null, countriesToVisit=[USA, Spain], insuranceLimit=10000, agreementPremium=null, selectedRisks=[TRAVEL_MEDICAL], persons=[PersonDto(personCode=A-12345, firstName=null, lastName=null, birthDate=1950-03-15, risks=[], personPremium=null, blackListed=false, password=StrongPass123, isEnabled=false, email=vasja@example.com, gender=Male, roles=[ROLE_USER], verificationTokens=[]), PersonDto(personCode=B-54321, firstName=null, lastName=null, birthDate=2010-02-23, risks=[], personPremium=null, blackListed=false, password=AnotherPass456, isEnabled=false, email=petja@example.com, gender=Male, roles=[ROLE_USER], verificationTokens=[]), PersonDto(personCode=C-67890, firstName=null, lastName=null, birthDate=1975-01-01, risks=[], personPremium=null, blackListed=false, password=Pass789Strong, isEnabled=false, email=sergej@example.com, gender=Male, roles=[ROLE_ADMIN], verificationTokens=[])], uuid=2f998026-55f7-4686-8501-c2cbb87314b1)
+2025-08-21T12:42:25.120+03:00  INFO 1236 --- [    Test worker] .n.c.v.a.c.ValidateCountryForMedicalRisk : ValidateCountryForMedicalRisk: Validating country for medical risk. Selected risks: [TRAVEL_MEDICAL], Country : [USA, Spain]
+2025-08-21T12:42:25.120+03:00  INFO 1236 --- [    Test worker] .n.c.v.a.c.ValidateCountryForMedicalRisk : ValidateCountryForMedicalRisk: Country validation passed.
+2025-08-21T12:42:25.120+03:00  INFO 1236 --- [    Test worker] o.n.c.v.a.date.VAgreementDateFrom        : Validate agreementDateFrom
+2025-08-21T12:42:25.120+03:00  INFO 1236 --- [    Test worker] o.n.c.v.a.date.VAgreementDateFrom        : AgreementDateFrom is 2028-03-15T00:00
+2025-08-21T12:42:25.120+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Validating selected risks: [TRAVEL_MEDICAL]
+2025-08-21T12:42:25.120+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Risk 'TRAVEL_MEDICAL' valid? true
+2025-08-21T12:42:25.120+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Selected risks are valid.
+2025-08-21T12:42:25.120+03:00  INFO 1236 --- [    Test worker] .n.c.s.TravelCalculatePremiumServiceImpl : Validation result: 2 errors found
+2025-08-21T12:42:25.120+03:00  WARN 1236 --- [    Test worker] o.n.core.service.TravelResponseBuilder   : Building response with validation errors: [ValidationErrorDto[errorCode=agreementDateTo, description=Field agreementDateTo must not be empty!], ValidationErrorDto[errorCode=agreementDateFrom, description=Both dates must be provided]]
+2025-08-21T12:42:25.121+03:00  INFO 1236 --- [    Test worker] r.v.TravelCalculatePremiumResponseLogger : RESPONSE: {&quot;errors&quot;:[{&quot;errorCode&quot;:&quot;agreementDateTo&quot;,&quot;description&quot;:&quot;Field agreementDateTo must not be empty!&quot;},{&quot;errorCode&quot;:&quot;agreementDateFrom&quot;,&quot;description&quot;:&quot;Both dates must be provided&quot;}],&quot;agreement&quot;:{&quot;agreementDateFrom&quot;:null,&quot;agreementDateTo&quot;:null,&quot;countriesToVisit&quot;:[],&quot;insuranceLimit&quot;:null,&quot;agreementPremium&quot;:null,&quot;selectedRisks&quot;:[],&quot;uuid&quot;:null,&quot;persons&quot;:[]}}
+2025-08-21T12:42:25.121+03:00  INFO 1236 --- [    Test worker] r.v.TravelCalculatePremiumResponseLogger : RESPONSE TIME: 0ms
+2025-08-21T12:42:25.121+03:00  INFO 1236 --- [    Test worker] org.javaguru.travel.insurance.app        : Some general application log message
+2025-08-21T12:42:25.125+03:00  INFO 1236 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+Hibernate: 
+    drop table if exists agreement cascade 
+Hibernate: 
+    drop table if exists agreement_countries cascade 
+Hibernate: 
+    drop table if exists agreement_proposals cascade 
+Hibernate: 
+    drop table if exists agreement_risks cascade 
+Hibernate: 
+    drop table if exists agreements_xml_export cascade 
+Hibernate: 
+    drop table if exists country cascade 
+Hibernate: 
+    drop table if exists country_default_day_rate cascade 
+Hibernate: 
+    drop table if exists password_reset_token cascade 
+Hibernate: 
+    drop table if exists persons cascade 
+Hibernate: 
+    drop table if exists refresh_token cascade 
+Hibernate: 
+    drop table if exists role cascade 
+Hibernate: 
+    drop table if exists user_roles cascade 
+Hibernate: 
+    drop table if exists verification_token cascade 
+2025-08-21T12:42:25.126+03:00  INFO 1236 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2025-08-21T12:42:25.128+03:00  INFO 1236 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at 21 авг. 2025 г., 12:42:29</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+const COUNTRIES_DATA = [
+    {
+        code: 'SPAIN',
+        name: 'Spain',
+        flag: 'https://flagcdn.com/w320/es.png',
+        capital: 'Madrid',
+        population: 47000000,
+        languages: ['Spanish'],
+        currency: 'EUR',
+        advisory: 'Be cautious of pickpockets in tourist areas.',
+        requirements: ['Travel insurance mandatory', 'Visa-free for EU citizens'],
+    },
+    {
+        code: 'USA',
+        name: 'USA',
+        flag: 'https://flagcdn.com/w320/us.png',
+        capital: 'Washington, D.C.',
+        population: 331000000,
+        languages: ['English'],
+        currency: 'USD',
+        advisory: 'Check local laws and customs carefully.',
+        requirements: ['Travel insurance recommended', 'Visa required for many countries'],
+    },
+    {
+        code: 'JAPAN',
+        name: 'Japan',
+        flag: 'https://flagcdn.com/w320/jp.png',
+        capital: 'Tokyo',
+        population: 126000000,
+        languages: ['Japanese'],
+        currency: 'JPY',
+        advisory: 'Respect local traditions and etiquette.',
+        requirements: ['Travel insurance recommended', 'Visa waiver for many countries'],
+    },
+    {
+        code: 'LATVIA',
+        name: 'Latvia',
+        flag: 'https://flagcdn.com/w320/lv.png',
+        capital: 'Riga',
+        population: 1900000,
+        languages: ['Latvian'],
+        currency: 'EUR',
+        advisory: 'Safe country with mild climate.',
+        requirements: ['Travel insurance recommended', 'Visa-free for EU citizens'],
+    },
+];
+
+export default COUNTRIES_DATA;

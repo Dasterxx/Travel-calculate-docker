@@ -1,0 +1,84 @@
+{
+  "agreement": {
+    "agreementDateFrom": "2028-03-15T00:00:00",
+    "agreementDateTo": "2028-03-31T23:59:59",
+    "countriesToVisit": [
+      "USA",
+      "Spain"
+    ],
+    "insuranceLimit": 10000,
+    "agreementPremium": 1296.00,
+    "selectedRisks": [
+      "TRAVEL_MEDICAL"
+    ],
+    "uuid": "2f998026-55f7-4686-8501-c2cbb87314b1",
+    "persons": [
+      {
+        "personCode": "A-12345",
+        "firstName": "Vasja",
+        "lastName": "Pupkin",
+        "birthDate": "1950-03-15",
+        "risks": [
+          {
+            "riskIc": "TRAVEL_MEDICAL",
+            "premium": 540.00
+          }
+        ],
+        "personPremium": "540,00",
+        "blackListed": false,
+        "password": "StrongPass123",
+        "email": "vasja@example.com",
+        "gender": "Male",
+        "roles": [
+          "ROLE_USER"
+        ],
+        "verificationTokens": [],
+        "isEnabled": false
+      },
+      {
+        "personCode": "B-54321",
+        "firstName": "Petja",
+        "lastName": "Pupkin",
+        "birthDate": "2010-02-23",
+        "risks": [
+          {
+            "riskIc": "TRAVEL_MEDICAL",
+            "premium": 288.00
+          }
+        ],
+        "personPremium": "288,00",
+        "blackListed": false,
+        "password": "AnotherPass456",
+        "email": "petja@example.com",
+        "gender": "Male",
+        "roles": [
+          "ROLE_USER"
+        ],
+        "verificationTokens": [],
+        "isEnabled": false
+      },
+      {
+        "personCode": "C-67890",
+        "firstName": "Sergej",
+        "lastName": "Pupkin",
+        "birthDate": "1975-01-01",
+        "risks": [
+          {
+            "riskIc": "TRAVEL_MEDICAL",
+            "premium": 468.00
+          }
+        ],
+        "personPremium": "468,00",
+        "blackListed": false,
+        "password": "Pass789Strong",
+        "email": "sergej@example.com",
+        "gender": "Male",
+        "roles": [
+          "ROLE_ADMIN"
+        ],
+        "verificationTokens": [],
+        "isEnabled": false
+      }
+    ]
+  }
+}

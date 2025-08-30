@@ -1,0 +1,12 @@
+{
+  "errors": [
+    {
+      "errorCode": "validationErrors",
+      "description": "[ValidationErrorDto[errorCode=personFirstName, description=First name can contain only English letters, spaces, and hyphens.]]"
+    },
+    {
+      "errorCode": "validationErrors",
+      "description": "[ValidationErrorDto[errorCode=personFirstName, description=Last name symbols should be less than 15.]]"
+    }
+  ]
+}

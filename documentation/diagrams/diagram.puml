@@ -1,0 +1,12 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+Person(client, "Client", "A user who wants to buy travel insurance.")
+Person(broker, "Broker", "An external system who wants to sell our travel insurance.")
+
+System(softwareSystem, "Travel Insurance Calculator", "Система расчёта стоимости страховки")
+
+Rel(client, softwareSystem, "Uses our system web")
+Rel(broker, softwareSystem, "Uses our system REST API")
+
+@enduml

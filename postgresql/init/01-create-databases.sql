@@ -1,0 +1,2 @@
+CREATE DATABASE insurance_calculator_db;
+CREATE DATABASE black_list_db;

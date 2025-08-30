@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<agreement>
+    <dateFrom/>
+    <dateTo/>
+    <countriesToVisit>
+        <country>USA</country>
+    </countriesToVisit>
+    <selectedRisks>
+        <risk>TRAVEL_MEDICAL</risk>
+    </selectedRisks>
+    <passengers>
+        <passenger>
+            <firstName>s</firstName>
+            <lastName>s</lastName>
+        </passenger>
+    </passengers>
+</agreement>

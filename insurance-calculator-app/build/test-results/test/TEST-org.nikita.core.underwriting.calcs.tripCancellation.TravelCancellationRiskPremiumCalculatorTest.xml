@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.underwriting.calcs.tripCancellation.TravelCancellationRiskPremiumCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:17" hostname="DESKTOP-CB9JCRQ" time="0.176">
+  <properties/>
+  <testcase name="testTravelCancellationRiskCalculatorPerPerson()" classname="org.nikita.core.underwriting.calcs.tripCancellation.TravelCancellationRiskPremiumCalculatorTest" time="0.176"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,4 @@
+rootProject.name = 'application_V2'
+include 'insurance-calculator-app', 'doc-generator-app', 'black-list-app'
+include 'calc-frontend'
+

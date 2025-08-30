@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/black-list-app/application_V2.black-list-app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/black-list-app/application_V2.black-list-app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/black-list-app/application_V2.black-list-app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/black-list-app/application_V2.black-list-app.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/calc-frontend/application_V2.calc-frontend.main.iml" filepath="$PROJECT_DIR$/.idea/modules/calc-frontend/application_V2.calc-frontend.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/doc-generator-app/application_V2.doc-generator-app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/doc-generator-app/application_V2.doc-generator-app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/insurance-calculator-app/application_V2.insurance-calculator-app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/insurance-calculator-app/application_V2.insurance-calculator-app.main.iml" />
+    </modules>
+  </component>
+</project>

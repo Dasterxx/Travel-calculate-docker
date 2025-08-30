@@ -1,0 +1,8 @@
+{
+  "errors": [
+    {
+      "errorCode": "validationErrors",
+      "description": "[ValidationErrorDto[errorCode=personFirstName, description=Field personFirstName must not be empty!]]"
+    }
+  ]
+}

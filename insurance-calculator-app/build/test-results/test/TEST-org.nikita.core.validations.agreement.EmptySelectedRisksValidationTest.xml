@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.validations.agreement.EmptySelectedRisksValidationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:18" hostname="DESKTOP-CB9JCRQ" time="0.06">
+  <properties/>
+  <testcase name="Should return error when selected risks is null" classname="org.nikita.core.validations.agreement.EmptySelectedRisksValidationTest" time="0.056"/>
+  <testcase name="Should return error when selected risks is empty" classname="org.nikita.core.validations.agreement.EmptySelectedRisksValidationTest" time="0.001"/>
+  <testcase name="Should not return error when selected risks are present" classname="org.nikita.core.validations.agreement.EmptySelectedRisksValidationTest" time="0.001"/>
+  <system-out><![CDATA[Validation error: code='selectedRisks', description='Risk Type ic = No selected risks not supported!'
+Validation error: code='selectedRisks', description='Risk Type ic = No selected risks not supported!'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

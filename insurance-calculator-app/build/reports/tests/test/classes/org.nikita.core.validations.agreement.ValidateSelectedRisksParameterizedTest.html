@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ValidateSelectedRisksParameterizedTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ValidateSelectedRisksParameterizedTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.nikita.core.validations.agreement.html">org.nikita.core.validations.agreement</a> &gt; ValidateSelectedRisksParameterizedTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.007s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">[1] testCase=org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest$TestCase@7153164a</td>
+<td class="success">testValidateSelectedRisks(TestCase)[1]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] testCase=org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest$TestCase@688ab131</td>
+<td class="success">testValidateSelectedRisks(TestCase)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] testCase=org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest$TestCase@ace5f3b</td>
+<td class="success">testValidateSelectedRisks(TestCase)[3]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] testCase=org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest$TestCase@39c81c69</td>
+<td class="success">testValidateSelectedRisks(TestCase)[4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2025-08-21T12:42:18.123+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Validating selected risks: []
+2025-08-21T12:42:18.123+03:00  WARN 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: No risks selected. Returning error.
+2025-08-21T12:42:18.124+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Validating selected risks: [InvalidRisk1]
+2025-08-21T12:42:18.125+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Risk 'InvalidRisk1' valid? false
+2025-08-21T12:42:18.125+03:00 ERROR 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Invalid risk found: InvalidRisk1
+2025-08-21T12:42:18.125+03:00  WARN 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Found 1 errors
+2025-08-21T12:42:18.126+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Validating selected risks: [InvalidRisk1, InvalidRisk2]
+2025-08-21T12:42:18.126+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Risk 'InvalidRisk1' valid? false
+2025-08-21T12:42:18.126+03:00 ERROR 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Invalid risk found: InvalidRisk1
+2025-08-21T12:42:18.126+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Risk 'InvalidRisk2' valid? false
+2025-08-21T12:42:18.126+03:00 ERROR 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Invalid risk found: InvalidRisk2
+2025-08-21T12:42:18.128+03:00  WARN 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Found 2 errors
+2025-08-21T12:42:18.129+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Validating selected risks: [TRAVEL_MEDICAL]
+2025-08-21T12:42:18.129+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Risk 'TRAVEL_MEDICAL' valid? true
+2025-08-21T12:42:18.129+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Selected risks are valid.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at 21 авг. 2025 г., 12:42:29</p>
+</div>
+</div>
+</body>
+</html>

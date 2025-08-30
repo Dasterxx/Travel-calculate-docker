@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.validations.registration.VRegistrationEmailValidation" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:18" hostname="DESKTOP-CB9JCRQ" time="0.003">
+  <properties/>
+  <testcase name="[1] testCase=org.nikita.core.validations.registration.VRegistrationEmailValidation$TestCase@6984940e" classname="org.nikita.core.validations.registration.VRegistrationEmailValidation" time="0.0"/>
+  <testcase name="[2] testCase=org.nikita.core.validations.registration.VRegistrationEmailValidation$TestCase@1019657" classname="org.nikita.core.validations.registration.VRegistrationEmailValidation" time="0.0"/>
+  <testcase name="[3] testCase=org.nikita.core.validations.registration.VRegistrationEmailValidation$TestCase@3ae31a0f" classname="org.nikita.core.validations.registration.VRegistrationEmailValidation" time="0.0"/>
+  <testcase name="[4] testCase=org.nikita.core.validations.registration.VRegistrationEmailValidation$TestCase@4d456d2b" classname="org.nikita.core.validations.registration.VRegistrationEmailValidation" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

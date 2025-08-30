@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.service.TravelResponseBuilderXmlTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:15" hostname="DESKTOP-CB9JCRQ" time="0.003">
+  <properties/>
+  <testcase name="testBuildSuccessResponse()" classname="org.nikita.core.service.TravelResponseBuilderXmlTest" time="0.001"/>
+  <testcase name="testBuildErrorResponseWithXmlExportExceptions()" classname="org.nikita.core.service.TravelResponseBuilderXmlTest" time="0.001"/>
+  <system-out><![CDATA[2025-08-21T12:42:15.496+03:00  WARN 1236 --- [    Test worker] o.n.c.service.TravelResponseBuilderXml   : Building response with XML export exceptions: [org.nikita.api.exceptions.XmlExportException: Error 1, org.nikita.api.exceptions.XmlExportException: Error 2]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

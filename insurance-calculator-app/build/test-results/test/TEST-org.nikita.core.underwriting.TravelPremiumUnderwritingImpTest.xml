@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.underwriting.TravelPremiumUnderwritingImpTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:15" hostname="DESKTOP-CB9JCRQ" time="0.086">
+  <properties/>
+  <testcase name="testCalculateTripCost()" classname="org.nikita.core.underwriting.TravelPremiumUnderwritingImpTest" time="0.078"/>
+  <testcase name="testCalculateInsuranceCostWithInvalidDates()" classname="org.nikita.core.underwriting.TravelPremiumUnderwritingImpTest" time="0.002"/>
+  <testcase name="testCalculateInsuranceCost()" classname="org.nikita.core.underwriting.TravelPremiumUnderwritingImpTest" time="0.003"/>
+  <testcase name="testCalculateRiskPremiums()" classname="org.nikita.core.underwriting.TravelPremiumUnderwritingImpTest" time="0.001"/>
+  <testcase name="testCalculateTripCostWithInvalidDates()" classname="org.nikita.core.underwriting.TravelPremiumUnderwritingImpTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

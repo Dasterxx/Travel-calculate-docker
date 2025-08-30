@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd">
+
+    <include file="db/changelog/changes/changelog-1-agreement.xml"/>
+    <include file="db/changelog/changes/changelog-2-agreement-countries.xml"/>
+    <include file="db/changelog/changes/changelog-3-agreements-xml-export.xml"/>
+    <include file="db/changelog/changes/changelog-4-agreement-risks.xml"/>
+<!--    <include file="db/changelog/changes/changelog-5-classifiers.xml"/>-->
+<!--    <include file="db/changelog/changes/changelog-6-classifier-values.xml"/>-->
+    <include file="db/changelog/changes/changelog-7-country-default-day-rate.xml"/>
+    <include file="db/changelog/changes/changelog-8-agreement-proposals.xml"/>
+    <include file="db/changelog/changes/changelog-9-persons.xml"/>
+    <include file="db/changelog/changes/changelog-10-password-reset-token.xml"/>
+    <include file="db/changelog/changes/changelog-11-refresh-token.xml"/>
+    <include file="db/changelog/changes/changelog-12-role.xml"/>
+    <include file="db/changelog/changes/changelog-13-verification-token.xml"/>
+    <include file="db/changelog/changes/changelog-14-country.xml"/>
+
+</databaseChangeLog>

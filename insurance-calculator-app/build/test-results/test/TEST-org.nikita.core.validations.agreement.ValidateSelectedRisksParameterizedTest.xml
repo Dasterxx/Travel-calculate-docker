@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:18" hostname="DESKTOP-CB9JCRQ" time="0.009">
+  <properties/>
+  <testcase name="[1] testCase=org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest$TestCase@7153164a" classname="org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest" time="0.003"/>
+  <testcase name="[2] testCase=org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest$TestCase@688ab131" classname="org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest" time="0.001"/>
+  <testcase name="[3] testCase=org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest$TestCase@ace5f3b" classname="org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest" time="0.002"/>
+  <testcase name="[4] testCase=org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest$TestCase@39c81c69" classname="org.nikita.core.validations.agreement.ValidateSelectedRisksParameterizedTest" time="0.001"/>
+  <system-out><![CDATA[2025-08-21T12:42:18.123+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Validating selected risks: []
+2025-08-21T12:42:18.123+03:00  WARN 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: No risks selected. Returning error.
+2025-08-21T12:42:18.124+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Validating selected risks: [InvalidRisk1]
+2025-08-21T12:42:18.125+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Risk 'InvalidRisk1' valid? false
+2025-08-21T12:42:18.125+03:00 ERROR 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Invalid risk found: InvalidRisk1
+2025-08-21T12:42:18.125+03:00  WARN 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Found 1 errors
+2025-08-21T12:42:18.126+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Validating selected risks: [InvalidRisk1, InvalidRisk2]
+2025-08-21T12:42:18.126+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Risk 'InvalidRisk1' valid? false
+2025-08-21T12:42:18.126+03:00 ERROR 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Invalid risk found: InvalidRisk1
+2025-08-21T12:42:18.126+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Risk 'InvalidRisk2' valid? false
+2025-08-21T12:42:18.126+03:00 ERROR 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Invalid risk found: InvalidRisk2
+2025-08-21T12:42:18.128+03:00  WARN 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Found 2 errors
+2025-08-21T12:42:18.129+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Validating selected risks: [TRAVEL_MEDICAL]
+2025-08-21T12:42:18.129+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : Risk 'TRAVEL_MEDICAL' valid? true
+2025-08-21T12:42:18.129+03:00  INFO 1236 --- [    Test worker] o.n.c.v.agreement.ValidateSelectedRisks  : ValidateSelectedRisks: Selected risks are valid.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

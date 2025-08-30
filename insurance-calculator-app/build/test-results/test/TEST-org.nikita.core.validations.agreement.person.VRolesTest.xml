@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.validations.agreement.person.VRolesTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:18" hostname="DESKTOP-CB9JCRQ" time="0.007">
+  <properties/>
+  <testcase name="[1] testCase=org.nikita.core.validations.agreement.person.VRolesTest$TestCase@5c5bc645" classname="org.nikita.core.validations.agreement.person.VRolesTest" time="0.0"/>
+  <testcase name="[2] testCase=org.nikita.core.validations.agreement.person.VRolesTest$TestCase@65f2743a" classname="org.nikita.core.validations.agreement.person.VRolesTest" time="0.001"/>
+  <testcase name="[3] testCase=org.nikita.core.validations.agreement.person.VRolesTest$TestCase@1fd31566" classname="org.nikita.core.validations.agreement.person.VRolesTest" time="0.001"/>
+  <testcase name="[4] testCase=org.nikita.core.validations.agreement.person.VRolesTest$TestCase@79a68aa3" classname="org.nikita.core.validations.agreement.person.VRolesTest" time="0.001"/>
+  <testcase name="[5] testCase=org.nikita.core.validations.agreement.person.VRolesTest$TestCase@617dafed" classname="org.nikita.core.validations.agreement.person.VRolesTest" time="0.0"/>
+  <testcase name="[6] testCase=org.nikita.core.validations.agreement.person.VRolesTest$TestCase@71b326bf" classname="org.nikita.core.validations.agreement.person.VRolesTest" time="0.0"/>
+  <testcase name="[7] testCase=org.nikita.core.validations.agreement.person.VRolesTest$TestCase@16951bb" classname="org.nikita.core.validations.agreement.person.VRolesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

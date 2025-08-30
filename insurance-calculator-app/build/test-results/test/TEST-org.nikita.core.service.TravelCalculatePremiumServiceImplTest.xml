@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.service.TravelCalculatePremiumServiceImplTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:15" hostname="DESKTOP-CB9JCRQ" time="0.217">
+  <properties/>
+  <testcase name="shouldCalculatePremiumSuccessfully()" classname="org.nikita.core.service.TravelCalculatePremiumServiceImplTest" time="0.204"/>
+  <testcase name="shouldReturnErrorWhenPersonIsBlacklisted()" classname="org.nikita.core.service.TravelCalculatePremiumServiceImplTest" time="0.007"/>
+  <testcase name="shouldReturnValidationErrorsWhenValidatorFails()" classname="org.nikita.core.service.TravelCalculatePremiumServiceImplTest" time="0.002"/>
+  <testcase name="shouldReturnErrorResponseWhenAgreementIsNull()" classname="org.nikita.core.service.TravelCalculatePremiumServiceImplTest" time="0.002"/>
+  <system-out><![CDATA[2025-08-21T12:42:15.449+03:00  INFO 1236 --- [    Test worker] .n.c.s.TravelCalculatePremiumServiceImpl : Calculating premium for agreement: AgreementDto(agreementDateFrom=null, agreementDateTo=null, countriesToVisit=[], insuranceLimit=null, agreementPremium=null, selectedRisks=[TRAVEL_MEDICAL], persons=[PersonDto(personCode=null, firstName=null, lastName=null, birthDate=null, risks=[], personPremium=null, blackListed=false, password=null, isEnabled=false, email=null, gender=null, roles=[], verificationTokens=[])], uuid=null)
+2025-08-21T12:42:15.468+03:00  INFO 1236 --- [    Test worker] .n.c.s.TravelCalculatePremiumServiceImpl : Validation result: 0 errors found
+2025-08-21T12:42:15.483+03:00  INFO 1236 --- [    Test worker] .n.c.s.TravelCalculatePremiumServiceImpl : Calculating premium for agreement: AgreementDto(agreementDateFrom=null, agreementDateTo=null, countriesToVisit=[], insuranceLimit=null, agreementPremium=null, selectedRisks=[], persons=[PersonDto(personCode=null, firstName=Ivan, lastName=Ivanov, birthDate=null, risks=[], personPremium=null, blackListed=false, password=null, isEnabled=false, email=null, gender=null, roles=[], verificationTokens=[])], uuid=null)
+2025-08-21T12:42:15.483+03:00  WARN 1236 --- [    Test worker] .n.c.s.TravelCalculatePremiumServiceImpl : Person Ivan Ivanov is blacklisted
+2025-08-21T12:42:15.489+03:00  INFO 1236 --- [    Test worker] .n.c.s.TravelCalculatePremiumServiceImpl : Calculating premium for agreement: AgreementDto(agreementDateFrom=null, agreementDateTo=null, countriesToVisit=[], insuranceLimit=null, agreementPremium=null, selectedRisks=[], persons=[], uuid=null)
+2025-08-21T12:42:15.489+03:00  INFO 1236 --- [    Test worker] .n.c.s.TravelCalculatePremiumServiceImpl : Validation result: 1 errors found
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

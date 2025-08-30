@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.validations.agreement.country.ValidateCountryEntityForMedicalRiskTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:18" hostname="DESKTOP-CB9JCRQ" time="0.004">
+  <properties/>
+  <testcase name="shouldNotReturnErrorWhenMedicalExpensesSelectedAndCountryIsNotNull()" classname="org.nikita.core.validations.agreement.country.ValidateCountryEntityForMedicalRiskTest" time="0.001"/>
+  <testcase name="shouldReturnErrorWhenMedicalExpensesSelectedAndCountryIsNull()" classname="org.nikita.core.validations.agreement.country.ValidateCountryEntityForMedicalRiskTest" time="0.001"/>
+  <testcase name="shouldNotReturnErrorWhenNoRisksSelected()" classname="org.nikita.core.validations.agreement.country.ValidateCountryEntityForMedicalRiskTest" time="0.001"/>
+  <testcase name="shouldNotReturnErrorWhenMedicalExpensesNotSelected()" classname="org.nikita.core.validations.agreement.country.ValidateCountryEntityForMedicalRiskTest" time="0.001"/>
+  <system-out><![CDATA[2025-08-21T12:42:18.133+03:00  INFO 1236 --- [    Test worker] .n.c.v.a.c.ValidateCountryForMedicalRisk : ValidateCountryForMedicalRisk: Validating country for medical risk. Selected risks: [Medical Expenses], Country : [SPAIN]
+2025-08-21T12:42:18.133+03:00  INFO 1236 --- [    Test worker] .n.c.v.a.c.ValidateCountryForMedicalRisk : ValidateCountryForMedicalRisk: Country validation passed.
+2025-08-21T12:42:18.134+03:00  INFO 1236 --- [    Test worker] .n.c.v.a.c.ValidateCountryForMedicalRisk : ValidateCountryForMedicalRisk: Validating country for medical risk. Selected risks: [Medical Expenses], Country : null
+2025-08-21T12:42:18.134+03:00  WARN 1236 --- [    Test worker] .n.c.v.a.c.ValidateCountryForMedicalRisk : ValidateCountryForMedicalRisk: Medical Expenses selected but no country specified. Returning error.
+2025-08-21T12:42:18.135+03:00  INFO 1236 --- [    Test worker] .n.c.v.a.c.ValidateCountryForMedicalRisk : ValidateCountryForMedicalRisk: Validating country for medical risk. Selected risks: null, Country : null
+2025-08-21T12:42:18.135+03:00  INFO 1236 --- [    Test worker] .n.c.v.a.c.ValidateCountryForMedicalRisk : ValidateCountryForMedicalRisk: Country validation passed.
+2025-08-21T12:42:18.136+03:00  INFO 1236 --- [    Test worker] .n.c.v.a.c.ValidateCountryForMedicalRisk : ValidateCountryForMedicalRisk: Validating country for medical risk. Selected risks: [Active Rest], Country : null
+2025-08-21T12:42:18.136+03:00  INFO 1236 --- [    Test worker] .n.c.v.a.c.ValidateCountryForMedicalRisk : ValidateCountryForMedicalRisk: Country validation passed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

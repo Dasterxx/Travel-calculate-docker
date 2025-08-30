@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.validations.registration.VPersonBirthDateInThePastAndNotNullRegistrationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:18" hostname="DESKTOP-CB9JCRQ" time="0.005">
+  <properties/>
+  <testcase name="shouldErrorWhenBirthdateInFuture()" classname="org.nikita.core.validations.registration.VPersonBirthDateInThePastAndNotNullRegistrationTest" time="0.002"/>
+  <testcase name="shouldErrorWhenBirthdateNull()" classname="org.nikita.core.validations.registration.VPersonBirthDateInThePastAndNotNullRegistrationTest" time="0.002"/>
+  <testcase name="shouldPassWithValidBirthdate()" classname="org.nikita.core.validations.registration.VPersonBirthDateInThePastAndNotNullRegistrationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

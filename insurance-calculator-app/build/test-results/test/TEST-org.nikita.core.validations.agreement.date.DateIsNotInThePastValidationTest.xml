@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.validations.agreement.date.DateIsNotInThePastValidationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:18" hostname="DESKTOP-CB9JCRQ" time="0.001">
+  <properties/>
+  <testcase name="shouldNotReturnErrorWhenAgreementDateFromIsInTheFuture()" classname="org.nikita.core.validations.agreement.date.DateIsNotInThePastValidationTest" time="0.0"/>
+  <testcase name="shouldReturnErrorWhenAgreementDateFromIsInThePast()" classname="org.nikita.core.validations.agreement.date.DateIsNotInThePastValidationTest" time="0.001"/>
+  <testcase name="shouldReturnErrorWhenAgreementDateFromIsNull()" classname="org.nikita.core.validations.agreement.date.DateIsNotInThePastValidationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

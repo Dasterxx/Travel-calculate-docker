@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.core.validations.registration.VPersonDuplicateRegistrationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:18" hostname="DESKTOP-CB9JCRQ" time="0.04">
+  <properties/>
+  <testcase name="shouldNotReturnErrorWhenNoDuplicate()" classname="org.nikita.core.validations.registration.VPersonDuplicateRegistrationTest" time="0.038"/>
+  <testcase name="shouldReturnErrorWhenDuplicateExists()" classname="org.nikita.core.validations.registration.VPersonDuplicateRegistrationTest" time="0.001"/>
+  <testcase name="shouldNotReturnErrorWhenDataIncomplete()" classname="org.nikita.core.validations.registration.VPersonDuplicateRegistrationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

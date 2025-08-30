@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.nikita.api.command.registration.RegistrationCommandTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-08-21T09:42:05" hostname="DESKTOP-CB9JCRQ" time="0.145">
+  <properties/>
+  <testcase name="whenInvalidEmail_thenViolation()" classname="org.nikita.api.command.registration.RegistrationCommandTest" time="0.127"/>
+  <testcase name="whenNullBirthDate_thenViolation()" classname="org.nikita.api.command.registration.RegistrationCommandTest" time="0.011"/>
+  <testcase name="whenInvalidGender_thenViolation()" classname="org.nikita.api.command.registration.RegistrationCommandTest" time="0.002"/>
+  <testcase name="whenBlankFirstName_thenViolation()" classname="org.nikita.api.command.registration.RegistrationCommandTest" time="0.001"/>
+  <testcase name="whenAllFieldsValid_thenNoViolations()" classname="org.nikita.api.command.registration.RegistrationCommandTest" time="0.001"/>
+  <system-out><![CDATA[12:42:05.194 [Test worker] INFO org.hibernate.validator.internal.util.Version -- HV000001: Hibernate Validator 8.0.1.Final
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

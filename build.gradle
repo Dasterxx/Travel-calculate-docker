@@ -1,0 +1,41 @@
+plugins {
+    id 'org.springframework.boot' version '3.2.5' apply false
+    id 'com.palantir.docker' version '0.36.0' apply false
+}
+
+group = 'org.nikita'
+version = '1.0.2'
+
+repositories {
+    mavenCentral()
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+    apply plugin: 'maven-publish'
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
+
+    allprojects {
+        repositories {
+            mavenCentral()
+        }
+    }
+
+
+    dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter-logging:3.2.5'
+        compileOnly 'org.projectlombok:lombok:1.18.36'
+        annotationProcessor 'org.projectlombok:lombok:1.18.36'
+    }
+
+    test {
+        useJUnitPlatform()
+        systemProperty "spring.profiles.active", "test"
+    }
+}

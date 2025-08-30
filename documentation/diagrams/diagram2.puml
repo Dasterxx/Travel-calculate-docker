@@ -1,0 +1,22 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+' Персонаж — пользователь
+Person(user, "Пользователь", "Пользователь, который вводит данные для расчёта страховки")
+
+' Система
+System(insuranceSystem, "Сервис расчёта страховки", "Веб-приложение для расчёта стоимости страховки путешествий")
+
+' Контейнеры внутри системы
+System_Boundary(insuranceSystemBoundary, "Сервис расчёта страховки") {
+    Container(webController, "Web Controller", "Spring Boot", "Принимает данные от пользователя через веб-интерфейс")
+    Container(calcController, "Calculation Controller", "Spring Boot", "Выполняет расчёт стоимости страховки на основе данных пользователя")
+}
+
+' Взаимодействия
+Rel(user, webController, "Вводит данные: страна, риск, дата, личные данные")
+Rel(webController, calcController, "Отправляет данные для расчёта")
+Rel(calcController, webController, "Возвращает результат расчёта")
+
+@enduml
